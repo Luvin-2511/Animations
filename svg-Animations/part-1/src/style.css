@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+
+main {
+  width: 100%;
+
+  .texter {
+    width: 100%;
+    text-align: center;
+
+    h1 {
+      font-size: 10rem;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-transform: uppercase;
+      color: white;
+      filter: url('#liquid');
+    }
+  }
+}

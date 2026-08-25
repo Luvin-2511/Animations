@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG | Part-1</title>
+  </head>
+  <body>
+    <main>
+      <svg height="0" width="0">
+        <defs>
+          <filter id="blob-effect">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blurredOut"
+            >
+              <animate attributeName="stdDeviation" values="10;0;0" dur="2s" repeatCount="1" fill="freeze"/>
+            </feGaussianBlur>
+            <feColorMatrix
+              in="blurredOut"
+              mode="matrix"
+              values="1 0 0 0 0
+            0 1 0 0 0
+            0 0 1 0 0
+            0 0 0 18 -7"
+              result="blob"
+            />
+            <feComposite in="SourceGraphic" in2="blob" operator="atop" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="texter">
+        <h1>Learning Animations</h1>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

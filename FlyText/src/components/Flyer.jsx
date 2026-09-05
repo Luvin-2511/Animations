@@ -7,7 +7,8 @@ gsap.registerPlugin(ScrollTrigger)
 const Flyer = ({
   text = 'Animation begins !',
   type = 'flyIn',
-  ease = 'expo'
+  ease = 'expo',
+  para=false
 }) => {
   const textArray = text.split('')
   const letterRef = useRef([])
@@ -67,7 +68,10 @@ const Flyer = ({
 
   return (
     <div ref={containerRef} className='text-container'>
-      <h1 className='flyer-text'>
+      <h1 style={{
+        fontSize:para?"2rem":"6rem",
+        width:para?"30rem":"",
+      }} className='flyer-text'>
         {textArray.map((letter, idx) => {
           return letter === ' ' ? (
             <span key={idx}>&nbsp;&nbsp;</span>

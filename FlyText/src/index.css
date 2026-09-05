@@ -29,10 +29,10 @@ main {
 }
 
 .flyer-text {
-  font-size: 6rem;
   color: var(--secondaryColor);
   text-transform: uppercase;
   perspective: 1000px;
+  text-align: center;
 
   span{
     display: inline-block;

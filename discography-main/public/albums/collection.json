@@ -1,0 +1,131 @@
+{
+  "name": "Game Projects // Physical Archives",
+  "theme": {
+    "background": "#07070a",
+    "backgroundCenter": "#101016",
+    "backgroundEdge": "#040406",
+    "ink": "#ffffff"
+  },
+  "albums": [
+    {
+      "id": "void-breach",
+      "artist": "Sanyukt // Unreal Engine 5.4",
+      "title": "Void Breach",
+      "year": "2024",
+      "kind": "Tactical Sci-Fi Shooter · PC Edition",
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "bookletBack": "booklet-back.avif",
+      "bookletScans": [
+        "booklet/02.avif",
+        "booklet/03.avif"
+      ],
+      "bookletPageCount": 6,
+      "bookletFit": "contain",
+      "color": "#0e1014",
+      "accent": "#ef5143",
+      "motif": "lines",
+      "tracks": [
+        {
+          "title": "Sector 07 Incursion",
+          "length": 215
+        },
+        {
+          "title": "CQC Breach Protocol",
+          "length": 198
+        },
+        {
+          "title": "Orbital Bridge Duel",
+          "length": 242
+        },
+        {
+          "title": "Zero Gravity Vacuum",
+          "length": 180
+        }
+      ]
+    },
+    {
+      "id": "one-wrong-step",
+      "artist": "Sanyukt // Solo Game Developer",
+      "title": "One Wrong Step",
+      "year": "2024",
+      "kind": "3D Precision Platformer · PC Edition",
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "bookletBack": "booklet-back.avif",
+      "bookletScans": [
+        "booklet/02.avif",
+        "booklet/03.avif"
+      ],
+      "bookletPageCount": 6,
+      "bookletFit": "contain",
+      "color": "#0d151c",
+      "accent": "#ef5143",
+      "motif": "waves",
+      "tracks": [
+        {
+          "title": "Gravitational Matrix",
+          "length": 224
+        },
+        {
+          "title": "Chamber 14 Descent",
+          "length": 186
+        },
+        {
+          "title": "Singularity Paradox",
+          "length": 254
+        },
+        {
+          "title": "Non-Euclidean Echoes",
+          "length": 205
+        }
+      ]
+    },
+    {
+      "id": "ashen-veil",
+      "artist": "Sanyukt // Combat Systems & Shaders",
+      "title": "Ashen Veil",
+      "year": "2023",
+      "kind": "Dark Fantasy Action RPG · PC Edition",
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "bookletBack": "booklet-back.avif",
+      "bookletScans": [
+        "booklet/02.avif",
+        "booklet/03.avif"
+      ],
+      "bookletPageCount": 6,
+      "bookletFit": "contain",
+      "color": "#141216",
+      "accent": "#ef5143",
+      "motif": "arches",
+      "tracks": [
+        {
+          "title": "The Solitary Knight",
+          "length": 280
+        },
+        {
+          "title": "Cathedral of Ash",
+          "length": 310
+        },
+        {
+          "title": "The Forgotten Monarch",
+          "length": 265
+        },
+        {
+          "title": "Embers of the Fallen Empire",
+          "length": 240
+        }
+      ]
+    }
+  ]
+}
